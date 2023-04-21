@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Idul Fitri</title>
+  </head>
+  <body>
+    <div class="contain">
+      <img src="kiri.png" data-aos="fade-right" data-aos-duration="1000" />
+      <img src="kanan.png" data-aos="fade-left" data-aos-delay="150" data-aos-duration="1000" />
+    </div>
+
+    <h1 class="lead"></h1>
+    <h1 class="lead1"></h1>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".lead", { duration: 4, delay: 1.5, text: "Selamat Hari Raya Idul Fitri 1444 H" });
+      gsap.to(".lead1", { duration: 4, delay: 5, text: "Mohon Maaf Lahir dan Batin" });
+    </script>
+  </body>
+</html>

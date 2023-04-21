@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background: url(idul.jpg);
+  background-size: cover; */
+  background: black;
+}
+
+img {
+  width: 40vw;
+  margin: 30px;
+}
+
+.contain {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+}
+
+.lead {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.lead1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
